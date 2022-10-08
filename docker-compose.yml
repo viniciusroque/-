@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  api-dv-python:
+    build: backend/python
+    env_file:
+      - ./backend/python/.env
+    volumes:
+      - ./backend/python:/home/python/app
+    tty: true
+    command: ['tail', '-f', '/dev/null']

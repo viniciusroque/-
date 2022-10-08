@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+commitlint.config.js
+/**/**/.env
+/**/**/**/__pycache__
+.docker/**/history/*
