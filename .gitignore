@@ -1,4 +1,3 @@
-.vscode
 .DS_Store
 commitlint.config.js
 /**/**/.env
